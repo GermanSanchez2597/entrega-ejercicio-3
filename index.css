@@ -48,3 +48,50 @@ body {background-color: darkviolet;}
 p{
     color: white;
 }
+
+.seccion-info {
+    background-color: black;
+    display: flex;
+    flex-direction: column    ;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-info h2 {
+    margin: 100px 0px 0px 0px;
+    padding: 0%;
+    color: orange;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+}
+
+.seccion-info h4 {
+    margin: 20px 0px 0px 0px;
+    padding: 0%;
+    color: yellow;
+    font-size: 1.3em;
+}
+
+.container-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.container-img-info {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.container-img-info img {
+    width: 50%;
+}
